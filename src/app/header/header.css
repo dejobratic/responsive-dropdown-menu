@@ -81,6 +81,34 @@
   color: var(--white-color);
 }
 
+.nav__dropdown-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__dropdown-icon {
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+
+.nav__dropdown-menu {
+  margin: 1rem 0 0 1rem;
+  display: none;
+}
+
+.nav__dropdown-menu-item {
+  margin: 1rem 0;
+}
+
+.nav__dropdown:hover > .nav__dropdown-menu {
+  display: block;
+}
+
+.nav__dropdown:hover .nav__dropdown-icon {
+  transform: rotate(180deg);
+}
+
 @media screen and (max-width: 768px) {
   .nav {
     position: fixed;
@@ -97,5 +125,103 @@
 
   .show {
     left: 0;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .nav {
+    width: 288px;
+  }
+}
+
+@media screen and (min-width: 758px) {
+  body {
+    margin: 0;
+  }
+
+  .header {
+    height: calc(var(--header-height) + 1rem);
+  }
+
+  .header__logo,
+  .header__toggle {
+    display: none;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+  .nav__content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav__user {
+    flex-direction: row;
+    text-align: initial;
+    margin-bottom: 0;
+  }
+
+  .nav__user-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .nav__user-img img {
+    width: 46px;
+  }
+
+  .nav__user-name {
+    color: var(--dark-color);
+  }
+
+  .nav__menu-item-list {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav__menu-item {
+    margin: 0 1.5rem;
+    padding: 1.4rem 0;
+  }
+
+  .nav__menu-item-link {
+    color: var(--dark-color);
+  }
+
+  .nav__menu-item-link:hover {
+    color: var(--first-color);
+  }
+
+  .active {
+    color: var(--first-color);
+  }
+
+  .nav__dropdown {
+    position: relative;
+  }
+
+  .nav__dropdown-menu {
+    position: fixed;
+    margin: 0;
+    top: calc(var(--header-height) + 1rem);
+    padding: 0.5rem 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+  }
+
+  .nav__dropdown-menu-item {
+    margin: 0.5rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
