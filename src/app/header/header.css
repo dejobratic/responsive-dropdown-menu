@@ -21,7 +21,6 @@
 
 .header__toggle {
   font-size: 1.7rem;
-  cursor: pointer;
 }
 
 .nav__content {
@@ -37,12 +36,20 @@
   margin-bottom: 3rem;
 }
 
+.header__logo,
+.header__toggle,
+.nav__user-name,
+.nav__user-img img {
+  cursor: pointer;
+}
+
 .nav__user-img {
   display: flex;
   justify-content: center;
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  border: 2px var(--white-color) solid;
   overflow: hidden;
   margin-bottom: 1rem;
 }
@@ -52,7 +59,6 @@
 }
 
 .nav__user-name {
-  cursor: auto;
   display: block;
   font-size: var(--nav-name-font-size);
   color: var(--white-color);

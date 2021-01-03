@@ -1,5 +1,6 @@
 import React, { useContext } from "react"
-import { Link } from "react-scroll"
+
+import Link from "app/components/link/Link"
 
 import AppContext from "app/context/AppContext"
 import { toggleMenuVisibility } from "app/context/app.actions"

@@ -1,6 +1,6 @@
 {
-  "homepage": "https://dejobratic.github.io/responsive-dropdown-menu",
-  "name": "responsive-dropdown-menu",
+  "homepage": "https://dejobratic.github.io/responsive-nav-bar",
+  "name": "responsive-nav-bar",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
