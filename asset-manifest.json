@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/responsive-nav-bar/static/css/main.ef8fd792.chunk.css",
-    "main.js": "/responsive-nav-bar/static/js/main.fa22a2fe.chunk.js",
-    "main.js.map": "/responsive-nav-bar/static/js/main.fa22a2fe.chunk.js.map",
+    "main.css": "/responsive-nav-bar/static/css/main.13abc253.chunk.css",
+    "main.js": "/responsive-nav-bar/static/js/main.be3c97c1.chunk.js",
+    "main.js.map": "/responsive-nav-bar/static/js/main.be3c97c1.chunk.js.map",
     "runtime-main.js": "/responsive-nav-bar/static/js/runtime-main.0e8f3453.js",
     "runtime-main.js.map": "/responsive-nav-bar/static/js/runtime-main.0e8f3453.js.map",
     "static/js/2.ca5ab69e.chunk.js": "/responsive-nav-bar/static/js/2.ca5ab69e.chunk.js",
     "static/js/2.ca5ab69e.chunk.js.map": "/responsive-nav-bar/static/js/2.ca5ab69e.chunk.js.map",
     "index.html": "/responsive-nav-bar/index.html",
-    "static/css/main.ef8fd792.chunk.css.map": "/responsive-nav-bar/static/css/main.ef8fd792.chunk.css.map",
+    "static/css/main.13abc253.chunk.css.map": "/responsive-nav-bar/static/css/main.13abc253.chunk.css.map",
     "static/js/2.ca5ab69e.chunk.js.LICENSE.txt": "/responsive-nav-bar/static/js/2.ca5ab69e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0e8f3453.js",
     "static/js/2.ca5ab69e.chunk.js",
-    "static/css/main.ef8fd792.chunk.css",
-    "static/js/main.fa22a2fe.chunk.js"
+    "static/css/main.13abc253.chunk.css",
+    "static/js/main.be3c97c1.chunk.js"
   ]
 }
